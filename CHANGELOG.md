@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
--
+- Guard NVML field queries against a buffer overrun in NVIDIA driver 595.91.07 that can crash `nvitop-exporter` while collecting NVLink throughput.
 
 ### Removed
 
